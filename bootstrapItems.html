@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrapitems</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+
+        .carousel-inner img {
+            width: 100%;
+            height: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand bg-dark">
+        <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">SignUp</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="container">
+        <h1>Carousel</h1>
+        <div class="container-fluid">
+            <div id="caro" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://fakeimg.pl/600x300" alt="Los Angeles">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://fakeimg.pl/600x300" alt="Chicago">
+                        <div class="carousel-caption">
+                            <h3>WELCOME</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://fakeimg.pl/600x300" alt="New York">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#caro" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#caro" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+                <ul class="carousel-indicators">
+                    <li data-target="#caro" data-slide-to="0" class="active"></li>
+                    <li data-target="#caro" data-slide-to="1"></li>
+                    <li data-target="#caro" data-slide-to="2"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="card-deck">
+                <div class="card text-dark col-lg-6 bg-warning">
+                    <div class="card-header">
+                        <h2 class="card-title">Header</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>On the Insert tab, the galleries include items that are designed to coordinate
+                            with the overall look of your document. You can use these galleries to
+                            insert tables, headers, footers, lists, cover pages, and other document
+                            building blocks. When you create pictures, charts, or diagrams, they also
+                            coordinate with your current document look. You can easily change the formatting
+                            of selected text in the document text by choosing a look for the selected
+                            text from the Quick Styles gallery on the Home tab. You can also format
+                            text directly by using the other controls on the Home tab. Most controls
+                            offer a choice of using the look from the current theme or using a format
+                            that you specify directly. To change the overall look of your document,
+                            choose new Theme elements on the Page Layout tab. To change the looks available
+                            in the Quick Style gallery, use the Change Current Quick Style Set command.
+                            Both the Themes gallery and the Quick Styles gallery provide reset commands
+                            so that you can always restore the look of your document to the original
+                            contained in your current template. On the Insert tab, the galleries include
+                            items that are designed to coordinate with the overall look of your document.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>Last updated on Mar 20th 2019 16:00 IST</p>
+                    </div>
+                </div>
+
+
+                <div class="card text-white bg-info col-lg-6">
+                    <div class="card-header">
+                        <h2 class="card-title">Latest News</h2>
+                    </div>
+                    <div class="card-body">
+                        <p> On the Insert tab, the galleries include items that are designed to coordinate
+                            with the overall look of your document. You can use these galleries to
+                            insert tables, headers, footers, lists, cover pages, and other document
+                            building blocks. When you create pictures, charts, or diagrams, they also
+                            coordinate with your current document look. You can easily change the formatting
+                            of selected text in the document text by choosing a look for the selected
+                            text from the Quick Styles gallery on the Home tab. You can also format
+                            text directly by using the other controls on the Home tab. Most controls
+                            offer a choice of using the look from the current theme or using a format
+                            that you specify directly. To change the overall look of your document,
+                            choose new Theme elements on the Page Layout tab. To change the looks available
+                            in the Quick Style gallery, use the Change Current Quick Style Set command.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>Last updated on Mar 20th 2019 16:00 IST</p>
+                    </div>
+                </div>
+                </section>
+            </div>
+            </section>
+        </div>
+    </div>
+    <br>
+</body>
+
+</html>
